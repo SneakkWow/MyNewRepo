@@ -12,7 +12,7 @@ public class CamFollowPlayer : MonoBehaviour
 
         transform.position = new Vector3(
             player.transform.position.x,
-            player.transform.position.y,
+            player.transform.position.y + 1,
             transform.position.z
             );
     }
