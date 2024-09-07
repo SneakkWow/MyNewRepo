@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ *Logan Turney
+ *Assignment 2
+ *Player movement script
+ */
 public class PlayerController : MonoBehaviour
 {
 

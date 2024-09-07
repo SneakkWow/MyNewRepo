@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 //using UnityEngine.UI;
 
+/*
+ *Logan Turney
+ *Assignment 2
+ *Displays win text when passing trigger zone
+ */
+
 public class PlayerEnterTrigger : MonoBehaviour
 {
 

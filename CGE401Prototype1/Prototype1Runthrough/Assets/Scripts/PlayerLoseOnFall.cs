@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 //using UnityEngine.UI;
 
+/*
+ *Logan Turney
+ *Assignment 2
+ *Display lose text when player falls off map
+ */
 public class PlayerLoseOnFall : MonoBehaviour
 {
 

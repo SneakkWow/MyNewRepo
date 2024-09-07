@@ -4,6 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/*
+ *Logan Turney
+ *Assignment 2
+ *Manager score and scene restart
+ */
+
 public class ScoreManager : MonoBehaviour
 {
     public static bool gameOver = false;
