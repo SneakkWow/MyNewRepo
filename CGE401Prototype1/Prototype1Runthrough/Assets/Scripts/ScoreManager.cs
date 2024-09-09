@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 /*
  *Logan Turney
+ *CGE401Prototype1
  *Assignment 2
  *Manager score and scene restart
  */

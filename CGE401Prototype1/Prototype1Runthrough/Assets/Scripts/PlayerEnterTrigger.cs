@@ -5,6 +5,7 @@ using UnityEngine;
 
 /*
  *Logan Turney
+ *CGE401Prototype1
  *Assignment 2
  *Displays win text when passing trigger zone
  */

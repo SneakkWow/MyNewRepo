@@ -5,6 +5,7 @@ using UnityEngine;
 
 /*
  *Logan Turney
+ *CGE401Prototype1
  *Assignment 2
  *Display lose text when player falls off map
  */
