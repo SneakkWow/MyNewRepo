@@ -5,6 +5,7 @@ using UnityEngine;
 
 /*
  *Logan Turney
+ *Challenge1Runthrough
  *Assignment 2
  *Adds score when passing a trigger zone
  */

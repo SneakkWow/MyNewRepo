@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 /*
  *Logan Turney
+ *Challenge1Runthrough
  *Assignment 2
  *Manager score and scene restart
  */

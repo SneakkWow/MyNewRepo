@@ -5,6 +5,7 @@ using UnityEngine;
 
 /*
  *Logan Turney
+ *Challenge1Runthrough
  *Assignment 2
  *Display lose text when player goes out of bounds
  */
