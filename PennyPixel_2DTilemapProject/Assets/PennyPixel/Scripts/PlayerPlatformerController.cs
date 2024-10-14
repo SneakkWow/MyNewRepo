@@ -67,6 +67,15 @@ public class PlayerPlatformerController : PhysicsObject {
         animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
         animator.SetFloat("velocityY", velocity.y);
         targetVelocity = move * maxSpeed;
+
+        if (transform.position.y < -25)
+        {
+            YouDied();
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
     }
 
     /*void YouWin()
@@ -74,8 +83,8 @@ public class PlayerPlatformerController : PhysicsObject {
         winText.text = "You win!";
     }*/
 
-    /*void YouDied()
+    void YouDied()
     {
-        winText.text = "You died. Press R to restart";
-    }*/
+        winText.text = "You died!\nPress R to restart";
+    }
 }
