@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a2ab616b930a1474bb32833af48e2fe2
+  - enabled: 0
+    path: Assets/Scenes/My3DLevelFinished.unity
+    guid: d679f69a272ee5f4895f404929401c2e
+  - enabled: 1
+    path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground3D.unity
+    guid: e9017d5f96b9f09489b4b37e1d6eb914
+  - enabled: 1
+    path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground3D 1.unity
+    guid: 5e42a99d130f94f4da19e1230ed11cf9
+  m_configObjects: {}
