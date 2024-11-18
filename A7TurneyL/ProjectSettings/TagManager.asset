@@ -9,6 +9,9 @@ TagManager:
   - Enemy
   - Powerup
   - PlayerGoal
+  - loseText
+  - waveText
+  - SM
   layers:
   - Default
   - TransparentFX

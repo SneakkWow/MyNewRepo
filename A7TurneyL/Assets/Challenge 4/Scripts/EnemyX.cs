@@ -42,7 +42,8 @@ public class EnemyX : MonoBehaviour
         else if (other.gameObject.name == "Player Goal")
         {
             //SM.Lose();
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            Debug.Log("You Lose");
         }
 
     }

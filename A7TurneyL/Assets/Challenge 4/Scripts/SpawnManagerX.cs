@@ -24,6 +24,8 @@ public class SpawnManagerX : MonoBehaviour
     public Text win;
     public Text lose;
 
+    private bool gameOver = false;
+    private bool winner = false;
     // Update is called once per frame
     void Update()
     {
@@ -39,16 +41,15 @@ public class SpawnManagerX : MonoBehaviour
             {
                 score.gameObject.SetActive(false);
                 win.gameObject.SetActive(true);
+                winner = true;
                 Time.timeScale = 0f;
-                if (Input.GetKeyDown(KeyCode.R))
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                }
             }
         }
 
-
-
+        if (Input.GetKeyDown(KeyCode.R) && (gameOver == true || winner == true))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     // Generate random spawn position for powerups and enemy balls
@@ -91,14 +92,11 @@ public class SpawnManagerX : MonoBehaviour
 
     }
 
-    /*public void Lose()
+    public void Lose()
     {
         score.gameObject.SetActive(false);
         lose.gameObject.SetActive(true);
+        gameOver = true;
         Time.timeScale = 0f;
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-    }*/
+    }
 }
