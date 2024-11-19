@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1278,7 +1278,7 @@ PrefabInstance:
     - target: {fileID: 6195911882892486956, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 188.29694
+      value: 258.39157
       objectReference: {fileID: 0}
     - target: {fileID: 6195911882892486956, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
@@ -1288,7 +1288,7 @@ PrefabInstance:
     - target: {fileID: 6195911882892486956, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 407.43567
+      value: 559.10596
       objectReference: {fileID: 0}
     - target: {fileID: 6195911882892486957, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
@@ -1473,22 +1473,22 @@ PrefabInstance:
     - target: {fileID: 6195911883695330250, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 0.0000038146973
       objectReference: {fileID: 0}
     - target: {fileID: 6195911883695330250, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160.37523
+      value: 268.55005
       objectReference: {fileID: 0}
     - target: {fileID: 6195911883695330250, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0000038146973
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6195911883695330250, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 366.82898
+      value: 495.32666
       objectReference: {fileID: 0}
     - target: {fileID: 6195911883695330251, guid: 9b431b602350bd14eb0d8c9f03da7ce6,
         type: 3}
@@ -1859,6 +1859,7 @@ GameObject:
   - component: {fileID: 2046577837}
   - component: {fileID: 2046577836}
   - component: {fileID: 2046577835}
+  - component: {fileID: 2046577838}
   m_Layer: 0
   m_Name: Player Goal
   m_TagString: PlayerGoal
@@ -1939,3 +1940,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046577833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2046577838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046577833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444fd87d5d279f148a5660fb7aa0b1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SM: {fileID: 221162289}
